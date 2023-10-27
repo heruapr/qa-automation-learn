@@ -1,77 +1,68 @@
 
-# qa-automation-learn
-This repository contains learning materials for QA and SDET. In this repo I will provide the materials from basic things of programming to next things such as  frameworks, tools and library. Please learn the whole thing in order so you can fully understand and learn the next things properly.
+Here's the corrected version of your text with improved grammar:
+
+# QA Automation Learn
+This repository contains learning materials for QA and SDET. In this repository, I will provide materials covering basic programming concepts and progress to more advanced topics, including frameworks, tools, and libraries. 
+**Please follow the learning sequence to gain a comprehensive understanding and effectively learn the subsequent topics.**
 
 **Outline**
 
-     1. Learn the basic of GIT workflow
-     2. Learn the basic of scripting and programming language
-     3. Automation framework and Library (API, UI)
-     4. BDD Testing
-     5. BDD Testing framework
+1. Learn the basics of GIT workflow.
+2. Learn the basics of scripting and programming languages.
+3. Automation frameworks and Libraries (API, UI).
+4. BDD Testing.
+5. BDD Testing frameworks.
 
+## Learn the Basics of GIT Workflow
+To work with code and contribute within a team, Git is essential for efficient source code management. To understand how Git works and why it's necessary, consider the following example:
 
-## Learn the basic of GIT workflow
-in order to work with code and contributing within a team, we will need git to make our work easier, git is used for source code management. To understand how git work and why we need it, let me give you some example case and simple analogy:
+Imagine you are collaborating with friends on a group assignment involving a single document. This document needs to be submitted to your teacher the following day. However, you and your friends are located separately and cannot work together in the same place. To manage this, you divide tasks among team members.
 
-Let's imagine you are working on a single document with your friends for a 3 people of group assignment, this document is going to be submitted to your teacher tomorrow, so you and your friends are working on them today, but unfortunately you two are seperated and cannot work together in a same place. So you and your friends divide tasks for each member.
-A (you): is working on document,
-B: is working on document, 
-C: Having 1 master document with version number, receiving updates from A or B whenever they give C an update for the document and merge the updates to master document and give version for each merge. So they have this flow of working:
+A (you) works on the document.
+B works on the document.
+C holds a master document with version numbers, receives updates from A or B, merges the updates into the master document, and assigns a version number for each merge. Here's the workflow:
 
-- C: Holds a master documents. give a copy to A and B at initiation.
-- A: Write a title 'assignment of group ABC' on his document -> send it to C
-- C: receive update from A then write it to master document, sign it with 'version 1' , and make announcement that there are updates to master doc.
-- A: since the master is updated then A has to get latest master doc from C (basically every updates on master document, A and B have to get the latest document from C before continuing their work or sending update to C so their current document is always relevant, make sense right?), then he is working on the doc again. 
-- B: in the middle of working, he's got the announcement of the update of master doc, so B has to get the latest update to, then he get it. Then B kinda make an addition to the title and change it to ''group assignment of group ABC" he added 'group' to the title, and add group members details under the title 'A,B,C' then he send it to C. C receive the update and merge it to master document, sign it with 'version 2', and make announcement that there are updates to master doc. Then A and B receiving the announcement of the updates and get the latest master doc (version 2) nad continuing their work again.
+- C initially holds the master document and provides copies to A and B.
+- A writes the title "Assignment of Group ABC" on their document and sends it to C.
+- C receives the update from A, incorporates it into the master document, labels it with 'Version 1,' and announces the updates to the master document.
+- A, since the master document is updated, needs to obtain the latest master document from C before continuing their work. This process ensures that their document is always relevant. A then resumes working on the document.
+- B, in the middle of working, receives an announcement of a master document update. B obtains the latest update, adds 'group' to the title, and includes group member details under the title 'A, B, C.' B then sends it to C. C receives the update, merges it into the master document, labels it as 'Version 2,' and announces the updates to the master document. A and B receive the announcement of the updates and retrieve the latest master document (Version 2) to continue their work.
 
-the iteration is going over and over again until tomorrow. you can imagine A is you who is working on a team contributing to code, B is your teammate, and C is the git. There are many git remote out there such as: github, gitlab, bitbucket, etc. They are all the same thing, just provided by different company. to be noted: in order to work with the team we need git remote to store our code in remote server (github, gitlab, etc) so team members can access them.
+This iteration continues until the deadline. In this analogy, A represents you, working as part of a team contributing to code, B represents your teammate, and C represents Git. Various Git remotes, such as GitHub, GitLab, and Bitbucket, are essentially the same, offered by different companies. It's important to note that Git remotes are necessary to store code on remote servers (e.g., GitHub, GitLab) for team access.
 
-well, above is just a simple analogy to understand why we need git and how it works, there are more terms in git workflow such as: 
-commit, pull, push, fetch, rebase, reset, etc. you can learn git in this interactive playground: https://learngitbranching.js.org/
+This simple analogy helps illustrate why Git is needed and how it works. Git involves various terms, including commit, pull, push, fetch, rebase, reset, and more. You can learn Git in an interactive environment at [Learn Git Branching](https://learngitbranching.js.org/).
 
+## Learn the Basics of Scripting and Programming Languages
+To learn automation tools, you need a fundamental understanding of scripting and programming languages. What distinguishes them?
 
+A scripting language is interpreted, while a programming language requires compilation into machine code to run on the hardware of an underlying operating system (OS). For detailed information, you can explore the differences [here](https://www.geeksforgeeks.org/whats-the-difference-between-scripting-and-programming-languages/).
 
+In this learning journey, we will use two languages: JavaScript and Python. You can learn them here:
 
-## Learn the basic of scripting and programming language
+- JavaScript: [PlayCode](https://playcode.io/).
+- Python: [LearnPython.org](https://www.learnpython.org/).
 
-in order to learn automation tools we need to have a basic understanding of scripting and programming language. What is the differences between them? 
-a scripting language is interpreted, and programming language needs to be compiled to machine code so as to run them on the hardware of an underlying OS (operating system), to learn about then in details go to here: https://www.geeksforgeeks.org/whats-the-difference-between-scripting-and-programming-languages/
+## Automation Frameworks and Libraries (API, UI)
+In this repository, I will provide examples of automation frameworks for API and UI testing that are highly relevant and popular in today's industry. Many companies and organizations use these frameworks, tools, and libraries. You can also explore additional options independently.
 
-In this learning, we will use two language: javascript and python. Learn here:
- - Javascript: https://playcode.io/
- - python: https://www.learnpython.org/
+### API Testing:
+- [Mocha.js](https://mochajs.org/)
 
+### UI Automation (Web):
+- [Katalon](https://katalon.com/)
+- [Webdriver.io](https://webdriver.io/)
+- [Cypress](https://www.cypress.io/)
+- [Robot Framework](https://robotframework.org/), which uses the Selenium library for browser interaction: [SeleniumLibrary](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html)
 
-
-## Automation framework and Library (API, UI)
-In this repo, I will give and examples of automation framework for API and UI testing that is most relevant and trending these days and most companies and organization use them, there are bunch of other framework, tools, and libraries out there. You can learn it as well by yourself.
-
-
-### API test: 
- - Mocha.js https://mochajs.org/
-
-### UI automation web: 
-
- - katalon: https://katalon.com/
- - https://webdriver.io/
- - cypress: https://www.cypress.io/
- - robot framework: https://robotframework.org/, robot framework using selenium library to interact with browser:https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
- 
-### UI automation mobile: 
-
- - https://webdriver.io/
- - robot framework using appium library to interact with mobile app: https://docs.robotframework.org/docs/different_libraries/appium,
- - https://medium.com/zenjob-tech-blog/webdriverio-with-appium-beyond-the-perfect-scenario-b534aa70c84e
+### UI Automation (Mobile):
+- [Webdriver.io](https://webdriver.io/)
+- Robot Framework, using the Appium library for mobile app interaction: [Appium Library](https://docs.robotframework.org/docs/different_libraries/appium)
+- [WebdriverIO with Appium](https://medium.com/zenjob-tech-blog/webdriverio-with-appium-beyond-the-perfect-scenario-b534aa70c84e)
 
 ## BDD Testing
-**Behavior-driven development** is a testing practice that follows the idea of specification by example (e.g., Test-Driven Development [TDD]). The idea is to describe how the application should behave in a very simple user/business-focused language.
-refer to this reference:
-https://katalon.com/resources-center/blog/bdd-testing
-
+**Behavior-driven development (BDD)** is a testing practice that follows the concept of specification by example, similar to Test-Driven Development (TDD). BDD focuses on describing how an application should behave in a user and business-focused language. For more information, refer to this [resource](https://katalon.com/resources-center/blog/bdd-testing).
 
 ## BDD Testing Framework
+Learn about the Cucumber testing tool at [BrowserStack](https://www.browserstack.com/guide/learn-about-cucumber-testing-tool).
 
-https://www.browserstack.com/guide/learn-about-cucumber-testing-tool
- - Cucumber: https://cucumber.io/
-
+- [Cucumber](https://cucumber.io/).
