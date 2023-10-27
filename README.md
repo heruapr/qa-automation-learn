@@ -12,7 +12,7 @@ This repository contains learning materials for QA and SDET. In this repo I will
 
 
 ## Learn the basic of GIT workflow
-in order to work with code and contributing within a team, we will need git to make our work easier, git is used for source code management. To understand how git work and why we need it, let me give you some case example and simple analogy:
+in order to work with code and contributing within a team, we will need git to make our work easier, git is used for source code management. To understand how git work and why we need it, let me give you some example case and simple analogy:
 
 Let's imagine you are working on a single document with your friends for a 3 people of group assignment, this document is going to be submitted to your teacher tomorrow, so you and your friends are working on them today, but unfortunately you two are seperated and cannot work together in a same place. So you and your friends divide tasks for each member.
 A (you): is working on document,
