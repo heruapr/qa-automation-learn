@@ -1,17 +1,15 @@
 
-Here's the corrected version of your text with improved grammar:
-
 # QA Automation Learn
 This repository contains learning materials for QA and SDET. In this repository, I will provide materials covering basic programming concepts and progress to more advanced topics, including frameworks, tools, and libraries. 
 **Please follow the learning sequence to gain a comprehensive understanding and effectively learn the subsequent topics.**
 
 **Outline**
 
-1. Learn the basics of GIT workflow.
-2. Learn the basics of scripting and programming languages.
-3. Automation frameworks and Libraries (API, UI).
-4. BDD Testing.
-5. BDD Testing frameworks.
+    1. Learn the basics of GIT workflow.
+    2. Learn the basics of scripting and programming languages.
+    3. Automation frameworks and Libraries (API, UI).
+    4. BDD Testing.
+    5. BDD Testing frameworks.
 
 ## Learn the Basics of GIT Workflow
 To work with code and contribute within a team, Git is essential for efficient source code management. To understand how Git works and why it's necessary, consider the following example:
